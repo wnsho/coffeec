@@ -17,7 +17,7 @@
 		<img class="card-img-top" src="coffeeImg/2.jpg" alt="Card image">
 		<div class="card-body">
 			<h4 class="card-title">바닐라 크림 콜드 브루</h4>
-			<a href="/views/coffees/2" class="btn btn-primary">상세 보기</a>
+			<a href="/coffees/2" class="btn btn-primary">상세 보기</a>
 		</div>
 	</div>
 	
@@ -25,7 +25,7 @@
 		<img class="card-img-top" src="coffeeImg/3.jpg" alt="Card image">
 		<div class="card-body">
 			<h4 class="card-title">아이스 라벤더 카페 브레베</h4>
-			<a href="/views/coffees/3" class="btn btn-primary">상세 보기</a>
+			<a href="/coffees/3" class="btn btn-primary">상세 보기</a>
 		</div>
 	</div>
 	
@@ -33,7 +33,7 @@
 		<img class="card-img-top" src="coffeeImg/4.jpg" alt="Card image">
 		<div class="card-body">
 			<h4 class="card-title">클래식 아포가토</h4>
-			<a href="/views/coffees/4" class="btn btn-primary">상세 보기</a>
+			<a href="/coffees/4" class="btn btn-primary">상세 보기</a>
 		</div>
 	</div>
 

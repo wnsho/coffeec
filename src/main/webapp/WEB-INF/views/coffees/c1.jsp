@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<%@ include file="layout/header.jsp"%>
+<%@ include file="../layout/header.jsp"%>
 
 
 <div class="container">
 
 	<div class="card m-2" style="width: 50%" align="center">
-		<img class="card-img-top" src="coffeeImg/1.jpg" alt="Card image">
+		<img class="card-img-top" src="../coffeeImg/1.jpg" alt="Card image">
 		<div class="card-body">
 			<h4 class="card-title">스타벅스 아이스 카페라떼</h4>
 		</div>
@@ -20,4 +20,4 @@
 
 </div>
 
-<%@ include file="layout/footer.jsp"%>
+<%@ include file="../layout/footer.jsp"%>
