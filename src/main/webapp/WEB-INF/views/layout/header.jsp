@@ -32,16 +32,16 @@
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="/auth/loginForm">로그인</a></li>
 					<li class="nav-item"><a class="nav-link" href="/auth/joinForm">회원가입</a></li>
-					<li class="nav-item"><a class="nav-link" href="/board/recomend">커피 추천 받기</a></li>
+					<li class="nav-item"><a class="nav-link" href="/recomend">커피 추천 받기</a></li>
 					<li class="nav-item"><a class="nav-link" href="/searchCoffee">커피 검색</a></li>
 				</ul>
 			</c:when>
 			<c:otherwise>		<!-- 세션이 있을떄 -->
 				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="/user/Form">마이페이지</a></li>
-					<li class="nav-item"><a class="nav-link" href="/board/recomend">커피 추천 받기</a></li>
+					<li class="nav-item"><a class="nav-link" href="/userForm">마이페이지</a></li>
+					<li class="nav-item"><a class="nav-link" href="/recomend">커피 추천 받기</a></li>
 					<li class="nav-item"><a class="nav-link" href="/searchCoffee">커피 검색</a></li>
-					<li class="nav-item"><a class="nav-link" href="/logout">로그아웃</a></li>
+					<li class="nav-item"><a class="nav-link" href="/logout" style="color: red;">로그아웃</a></li>
 				</ul>
 			</c:otherwise>
 		</c:choose>		

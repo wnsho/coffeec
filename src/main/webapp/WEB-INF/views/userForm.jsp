@@ -7,11 +7,11 @@
 
 	<div class="card m-2" style="width: 50%" align="center">
 	
-		<h3 class="card-title">커피추천 페이지</h3>
+		<h3 class="card-title">즐겨찾기 한 커피</h3>
 		<img class="card-img-top" src="a.jpg" alt="Card image">
 		<div class="card-body">
-			<h4 class="card-title">기호에 맞는 커피를 추천해 드립니다.</h4>
-			<a href="#" class="btn btn-primary">시작하기</a>
+			<h4 class="card-title">즐겨찾기 한 커피</h4>
+			<a href="#" class="btn btn-primary">상세보기</a>
 		</div>
 
 	</div>
