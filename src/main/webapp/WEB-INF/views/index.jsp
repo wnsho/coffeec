@@ -20,6 +20,8 @@
 		
 	
 	</div>
+	
+	<p><a href="/board/showCoffeeRandom">랜덤 커피</a></p>
 
 
 

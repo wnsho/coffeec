@@ -13,7 +13,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import com.joon.wlc.config.auth.PrincipalDetailService;
 
 //빈 등록 : 스프링 컨테이너에서 객체를 관리할 수 있게 하는 것.
-//보통 이 세개 같이 쓰임.
+
 @Configuration // 빈등록(IoC관리)
 @EnableWebSecurity //시큐리티 필터가 등록이 된다.
 @EnableGlobalMethodSecurity(prePostEnabled = true) //특정 주소로 접근을 하면 권한 및 인증을 미리!! 체크하겠다는 뜻.

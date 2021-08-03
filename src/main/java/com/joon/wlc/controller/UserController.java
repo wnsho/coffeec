@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 //그냥 주소가 / 이면 index.jsp 허용
 //static이하에 있는 /js/**, /css/**, /image/** 허용
 
+
 @Controller
 public class UserController {
 
@@ -20,7 +21,7 @@ public class UserController {
 		return "user/loginForm";
 	}
 	
-	@GetMapping("/userForm")
+	@GetMapping("/auth/userForm")
 	public String userForm() {
 		return "/userForm";
 	}
